@@ -266,6 +266,11 @@ button {
 	border-radius: 10px;
 	height: 45px;
 }
+
+.login-bt:hover{
+    border:1px solid #fff;
+}
+
 .sinup_text{
 	width: 100%;
 	float: left;
@@ -624,7 +629,7 @@ button {
 	width: 50%;
 	float: left;
 	height: 50px;
-	background-color: #fb7b14;
+	background-color: #6DA16D;
 	font-size: 20px;
 	color: #ffffff;
 	margin-top: 20px;
@@ -667,7 +672,7 @@ button {
 .input-group>.input-group-append>.btn, .input-group>.input-group-append>.input-group-text, .input-group>.input-group-prepend:first-child>.btn:not(:first-child), .input-group>.input-group-prepend:first-child>.input-group-text:not(:first-child), .input-group>.input-group-prepend:not(:first-child)>.btn, .input-group>.input-group-prepend:not(:first-child)>.input-group-text {
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
-    background-color: #fb7b14;
+    background-color: #6DA16D;
     color: #fff;
     border: 0px;
     width: 100%;
@@ -680,7 +685,7 @@ button {
     border-bottom-right-radius: 0;
     padding-top: 10px;
     border-radius: 0px;
-    color: #fb7b14;
+    color: #6DA16D;
 }
 
 .copyright_section{
@@ -699,7 +704,7 @@ button {
 	margin-left: 0px;
 }
 .copyright_text a{ color: #75767d; }
-.copyright_text a:hover{ color: #fb7b14; }
+.copyright_text a:hover{ color: #6DA16D; }
 
 .carousel-indicators .active {
     background-color: #6da16d;
