@@ -743,4 +743,42 @@ button {
 }
 
 
+.card-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+ 
+.card-inner {
+    text-align: center;
+    width: 8rem;
+    height: 8rem;
+    transition: transform 1.5s;
+    transform-style: preserve-3d;
+}
+ 
+.card-container:hover .card-inner {
+    cursor: pointer;
+    transform: rotateY(180deg);
+}
+ 
+.card-imgouter {
+    border-radius:50% 50%; 
+    border:1px solid #6DA16D;
+    position: absolute;
+    backface-visibility: hidden;
+}
 
+.card-content {
+    position: absolute;
+    border-radius:50% 50%; 
+    width: 8rem;
+    height: 8rem;
+    margin: auto;
+    color:#fff;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+}
