@@ -303,12 +303,15 @@ button {
 .banner_taital {
     width: 100%;
     float: left;
-    font-size: 59px;
+    font-size: 42px;
     color: #ffffff;
     font-weight: 600;
     text-align: left;
     padding-top: 70px;
 }	
+.banner_taital_strong {
+    font-size: 59px;
+}
 
 .lorem_text {
     width: 100%;
@@ -415,7 +418,7 @@ button {
     margin-top: 25px;
 }
 .about_text{
-	width: 41%;
+	/* width: 41%; */
 	float: right;
 	font-size: 50px;
 	color: #090807;
