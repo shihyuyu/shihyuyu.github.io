@@ -773,6 +773,7 @@ button {
     border:1px solid #6DA16D;
     position: absolute;
     backface-visibility: hidden;
+    overflow: hidden;
 }
 
 .card-content {
