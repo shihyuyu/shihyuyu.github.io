@@ -1,475 +1,533 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <!-- basic -->
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- mobile metas -->
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="viewport" content="initial-scale=1, maximum-scale=1">
-        <!-- site metas -->
-        <title>Salesmap 打造屬於你的業務地圖</title>
-        <meta name="keywords" content="">
-        <meta name="description" content="">
-        <meta name="author" content="">
-        <!-- bootstrap css -->
-        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-        <!-- style css -->
-        <link rel="stylesheet" type="text/css" href="css/style.css">
-        <!-- Responsive-->
-        <link rel="stylesheet" href="css/responsive.css">
-        <!-- favicon -->
-        <link rel="icon" href="images/favicon/favicon.ico" type="image/gif"/>
-        <!-- Scrollbar Custom CSS -->
-        <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
-        <!-- Tweaks for older IEs-->
-        <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
-        <!-- owl stylesheets -->
-        <!-- <link rel="stylesheet" href="css/owl.carousel.min.css"> -->
-        <!-- <link rel="stylesheet" href="css/owl.theme.default.min.css"> -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
 
-    </head>
+<head>
+    <!-- basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- mobile metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <!-- site metas -->
+    <title>Salesmap 打造屬於你的業務地圖</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <!-- style css -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- Responsive-->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- favicon -->
+    <link rel="icon" href="images/favicon/favicon.ico" type="image/gif" />
+    <!-- Scrollbar Custom CSS -->
+    <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+    <!-- Tweaks for older IEs-->
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+    <!-- owl stylesheets -->
+    <!-- <link rel="stylesheet" href="css/owl.carousel.min.css"> -->
+    <!-- <link rel="stylesheet" href="css/owl.theme.default.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+</head>
 
-    <body>
-        <!--header section start -->
-        <div class="header_section">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-2">
-                        <div class="logo">
-                            <a href="index.html"><img src="images/logo.png"></a>
-                        </div>
-                    </div>
-                    <div class="col-sm-6">
-                        <div class="menu-area">
-                            <nav
-                                class="navbar navbar-expand-lg">
-                                <!-- <a class="navbar-brand" href="#">Menu</a> -->
-                                <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                                    <i class="fa fa-bars"></i>
-                                </button>
-                                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                                    <ul class="navbar-nav mr-auto">
-                                        <li class="nav-item active">
-                                            <a class="nav-link" href="index.html">首頁<span class="sr-only">(current)</span>
-                                            </a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="#about">產品介紹</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="#product">相關服務</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="#team">團隊介紹</a>
-                                        </li>
-                                        <li class="nav-item" href="#">
-                                            <a class="nav-link" href="#contact">聯絡我們</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </nav>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <ul class="top_button_section">
-                            <li>
-                                <a class="login-bt active" href="https://sys.bestsalesmap.com.tw" target="_blank">開始使用</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="banner_section layout_padding">
-                        <section>
-                            <div id="main_slider" class="section carousel slide banner-main" data-ride="carousel">
-                                <div class="carousel-inner">
-                                    <div class="carousel-item active">
-                                        <div class="container">
-                                            <div class="row marginii">
-                                                <div class="col-md-5 col-sm-12">
-                                                    <div class="carousel-sporrt_text">
-                                                        <h1 class="banner_taital"><strong class="banner_taital_strong">14天</strong>無痛導入</h1>
-                                                        <p class="lorem_text">系統應該貼合外勤工作流程，不造成外勤人員使用負擔
-                                                        </p>
-                                                        <div class="ads_bt">
-                                                            <a href="#">地圖</a>
-                                                        </div>
-                                                        <div class="contact_bt">
-                                                            <a href="#">業務</a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-7 col-sm-12">
-                                                    <div class="img-box">
-                                                        <figure><img src="images/banner-img1.png" style="max-width: 100%;"/></figure>
-                                                    </div>
-                                                </div>
-                                            </div>
+<body>
+    <div class="header_section_0">
+        <div class="container">
+            <div class="row">
+                <div class="banner_section layout_padding">
+                    <section>
+                        <div class="section carousel slide banner-main">
+                            <div class="container">
+                                <div class="row marginii">
+                                    <div class="col-md-5 col-sm-12">
+                                        <div class="carousel-sporrt_text">
+                                            <h1 class="banner_taital"><strong class="banner_taital_strong">組建更高效的業務團隊</strong></h1>
+                                            <h3 style="font-weight: bold; color:#ffffff;">專為外勤業務設計的雲CRM系統，找出盲點的業務培訓課程</h3>
                                         </div>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <div class="container">
-                                            <div class="row marginii">
-                                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-                                                    <div class="carousel-sporrt_text">
-                                                        <h1 class="banner_taital"><strong class="banner_taital_strong">5筆/天</strong>的平均資料記錄量
-                                                        </h1>
-                                                        <p class="lorem_text">我們有把握能讓外勤人員自動自發的紀錄至少每天五筆以上的客戶資料
-                                                        </p>
-                                                        <div class="ads_bt">
-                                                            <a href="#">卡牌</a>
-                                                        </div>
-                                                        <div class="contact_bt">
-                                                            <a href="#">資訊</a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-                                                    <div class="img-box">
-                                                        <figure><img src="images/banner-img2.png" style="max-width: 100%;"/></figure>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <div class="container">
-                                            <div class="row marginii">
-                                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-                                                    <div class="carousel-sporrt_text">
-                                                        <h1 class="banner_taital"><strong class="banner_taital_strong">80%</strong>的業務滿意企業導入Salesmap </h1>
-                                                        <p class="lorem_text">加注足夠的動能於業務，讓系統的導入共創雙贏
-                                                        </p>
-                                                        <div class="ads_bt">
-                                                            <a href="#">視覺化</a>
-                                                        </div>
-                                                        <div class="contact_bt">
-                                                            <a href="#">友善</a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-                                                    <div class="img-box">
-                                                        <figure><img src="images/banner-img3.png" style="max-width: 100%;"/></figure>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
+                                        <div class="guide_bt"><a href="#header" style="font-weight: bold; color:#ffffff;">了解流程 >>></a></div>
                                     </div>
                                 </div>
                             </div>
-                        </section>
-                    </div>
-                </div>
-
-            </div>
-            <!--header section end -->
-
-        </div>
-    </body>
-</html></div><!--banner section end --><!--about section start --><div id="about" class="about_section layout_padding">
-<div class="container">
-    <div class="row">
-        <div class="col-md-6">
-            <div class="tablet"><img src="images/tablet-img.png"></div>
-        </div>
-        <div class="col-md-6">
-            <div class="about_taital">
-                <div class="about_text">真正了解外勤業務的<br>
-                    <span style="color: #6da16d;">客戶管理工具</span>
-                </div>
-                <p class="dolor_text">再也不擔心導入CRM會造成業務單位的反抗! <br> Google地圖+CRM 用最熟悉的方式管理客戶，連結人脈</p>
-                <p class="dolor_text">找客服申請試用(<a style="font-weight:bold;color:#3c5a99;" href="https://www.facebook.com/GreedSalesmap">粉專</a>/<a style="font-weight:bold;color:#06c152;" href="https://lin.ee/dt834mY">Line@</a>)</p>
-                <div class="read_more">
-                    <a href="#">我想探索</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</div></div><div id="product" class="about_section_2">
-<div class="container">
-    <div class="row">
-        <div class="col-sm-12">
-            <div class="classified_text">我們的服務
-                <span style="color: #6da16d;">SERVICE</span>
-            </div>
-        </div>
-    </div>
-    <div class="row front">
-        <div class="col-md-2">
-            <div class="card-container">
-                <div class="card-inner">
-                    <div class="card-imgouter">
-                        <div class="about_img"><img src="images/service_db.png" alt="客戶資料庫快速建立"></div>
-                    </div>
-                    <div class="card-content" style="background-color:#FFC000;"> 
-                        <div class="about_img"><img src="images/img-1.png"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-2">
-            <h1 class="fron_text">客戶資料庫快速建立</h1>
-            <p class="using_text"></p>
-        </div>
-        <div class="col-md-2">
-            <div class="card-container">
-                <div class="card-inner">
-                    <div class="card-imgouter">
-                        <div class="about_img"><img src="images/service_train.png" alt="客戶資料庫快速建立"></div>
-                    </div>
-                    <div class="card-content" style="background-color:#0084B4;">
-                        <div class="about_img"><img src="images/img-1.png"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-2">
-            <h1 class="fron_text">完整的教育訓練</h1>
-            <p class="using_text"></p>
-        </div>
-        <div class="col-md-2">
-            <div class="card-container">
-                <div class="card-inner">
-                    <div class="card-imgouter">
-                        <div class="about_img"><img src="images/service_visit.png" alt="完整的教育訓練"></div>
-                    </div>
-                    <div class="card-content" style="background-color:#BA1015;">
-                        <div class="about_img"><img src="images/img-1.png"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-2">
-            <h1 class="fron_text">拜訪資料快速瀏覽</h1>
-            <p class="using_text"></p>
-        </div>
-    </div>
-    <div class="row front">
-        <div class="col-md-2">
-            <div class="card-container">
-                <div class="card-inner">
-                    <div class="card-imgouter">
-                        <div class="about_img"><img src="images/service_workflow.png" alt="拜訪資料快速瀏覽"></div>
-                    </div>
-                    <div class="card-content" style="background-color:#3C6B3C;">
-                        <div class="about_img"><img src="images/img-1.png"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-2">
-            <h1 class="fron_text">貼合工作流程的系統設計</h1>
-            <p class="using_text"></p>
-        </div>
-        <div class="col-md-2">
-            <div class="card-container">
-                <div class="card-inner">
-                    <div class="card-imgouter">
-                        <div class="about_img"><img src="images/service_report.png" alt="貼合工作流程的系統設計"></div>
-                    </div>
-                    <div class="card-content" style="background-color:#3C6B3C;">
-                        <div class="about_img"><img src="images/img-1.png"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-2">
-            <h1 class="fron_text">每月報表產出</h1>
-            <p class="using_text"></p>
-        </div>
-        <div class="col-md-2">
-            <div class="card-container">
-                <div class="card-inner">
-                    <div class="card-imgouter">
-                        <div class="about_img"><img src="images/service_free.png" alt="免費的系統導入"></div>
-                    </div>
-                    <div class="card-content" style="background-color:#3C6B3C;">
-                        <div class="about_img"><img src="images/img-1.png"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-2">
-            <h1 class="fron_text">免費的系統導入</h1>
-            <p class="using_text"></p>
-        </div>
-    </div>
-</div></div><!--about section end --><!--client section start --><div class="clients_section layout_padding">
-<div class="container">
-    <div class="row">
-        <div class="col-sm-12">
-            <div class="client_text">團隊介紹<span style="color: #6da16d;">TEAM</span>
-            </div>
-            <p class="using_text">將業務經驗系統化 給你最專業的顧問服務 SOP結合系統應用 將不可能變可能</p>
-        </div>
-    </div>
-</div></div><div class="clients_section_2 layout_padding">
-<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-    <ol class="carousel-indicators">
-        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-    </ol>
-    <div class="carousel-inner">
-        <div class="carousel-item active">
-            <div class="container">
-                <div class="client_img"><img src="images/man1.png"></div>
-                <h1 class="johan_text">DANIEL</h1>
-                <p class="adiser_text">(CEO)</p>
-                <p class="long_text">前線人員的使用意願大幅決定了CRM系統的導入成功率，加注足夠的動能促使外勤人員快速上手CRM
-                </p>
-            </div>
-        </div>
-        <div class="carousel-item">
-            <div class="container">
-                <div class="client_img"><img src="images/man2.png"></div>
-                <h1 class="johan_text">TIM</h1>
-                <p class="adiser_text">(COO)</p>
-                <p class="long_text">我們明白中小企業導入CRM最大的掙扎在於無法實際評估效應，Salesmap開放系統終身免費導入，先看到成效，再做評估
-                </p>
-            </div>
-        </div>
-        <div class="carousel-item">
-            <div class="container">
-                <div class="client_img"><img src="images/man3.png"></div>
-                <h1 class="johan_text">YOYO</h1>
-                <p class="adiser_text">(CTO)</p>
-                <p class="long_text">我們專注在業務工作流程的改善，讓業務愛用，才能夠更有效率地為企業催生營運報告
-                </p>
-            </div>
-        </div>
-    </div>
-    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-    </a>
-</div></div><!--client section end --><!--footer section start --><div id="contact" class="footer_section layout_padding">
-<div class="container">
-    <div class="row">
-        <div class="col-sm-3">
-            <div class="footer_contact">聯絡我們</div>
-        </div>
-        <div class="col-sm-3">
-            <div class="location_text"><img src="images/map-icon.png"><span style="padding-left: 10px;">台中市北屯區豐樂二街112號</span>
-            </div>
-        </div>
-        <div class="col-sm-2">
-            <div class="location_text"><img src="images/call-icon.png"><span style="padding-left: 10px;">04-3702-3786</span>
-            </div>
-        </div>
-        <div class="col-sm-4">
-            <div class="location_text"><img src="images/mail-icon.png"><span style="padding-left: 10px;">service@bestsalesmap.com.tw</span>
-            </div>
-        </div>
-    </div>
-    <div class="enput_bt">
-        <div class="row">
-            <div class="col-md-6">
-                <div class="input_main">
-                    <div class="container">
-                        <form action="">
-                            <div class="form-group">
-                                <input type="text" class="email-bt" placeholder="姓名" name="Name" id="txtName">
-                            </div>
-                            <div class="form-group">
-                                <input type="text" class="email-bt" placeholder="EMAIL" name="Email" id="txtEmail">
-                            </div>
-                            <div class="form-group">
-                                <input type="text" class="email-bt" placeholder="連絡電話"" name=" tel" id=" txttel">
-                            </div>
-                            <form action="">
-                                <div class="form-group">
-                                    <textarea class="massage-bt" placeholder="留言訊您想跟我們說的話" rows="5" id="txtComment" name="text"></textarea>
-                                </div>
-                            </form>
-                        </form>
-                    </div>
-                    <div class="send_bt_main">
-                        <div class="left">
-                            <div class="send_bt">
-                                <a id="btnSend" href="##">留言</a>
-                            </div>
                         </div>
-                        <div class="right">
-                            <div class="social_icon">
-                                <ul>
-                                    <li><a href="#"><img src="images/fb-icon.png"></a></li>
-                                    <li><a href="#"><img src="images/twitter-icon.png"></a></li>
-                                    <li><a href="#"><img src="images/in-icon.png"></a></li>
-                                    <li><a href="#"><img src="images/instagram-icon.png"></a></li>
+                    </section>
+                </div>
+            </div>
+        </div>
+        <!--header section end -->
+    </div>
+    <!--header section start -->
+    <div id="header" class="header_section">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-2">
+                    <div class="logo">
+                        <a href="index.html"><img src="images/logo.png"></a>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="menu-area">
+                        <nav class="navbar navbar-expand-lg">
+                            <!-- <a class="navbar-brand" href="#">Menu</a> -->
+                            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse"
+                                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <i class="fa fa-bars"></i>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav mr-auto">
+                                    <li class="nav-item active">
+                                        <a class="nav-link" href="index.html">首頁<span class="sr-only">(current)</span>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#about">產品介紹</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#product">相關服務</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#team">團隊介紹</a>
+                                    </li>
+                                    <li class="nav-item" href="#">
+                                        <a class="nav-link" href="#contact">聯絡我們</a>
+                                    </li>
                                 </ul>
                             </div>
+                        </nav>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <ul class="top_button_section">
+                        <li>
+                            <a class="login-bt active" href="https://sys.bestsalesmap.com.tw" target="_blank">開始使用</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="banner_section layout_padding">
+                    <section>
+                        <div id="main_slider" class="section carousel slide banner-main" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="container">
+                                        <div class="row marginii">
+                                            <div class="col-md-5 col-sm-12">
+                                                <div class="carousel-sporrt_text">
+                                                    <h1 class="banner_taital"><strong
+                                                            class="banner_taital_strong">14天</strong>無痛導入</h1>
+                                                    <p class="lorem_text">跟Googlemap一樣簡單的操作，任何人都可以簡單學習快速上手
+                                                    </p>
+                                                    <div class="ads_bt">
+                                                        <a href="#">簡單</a>
+                                                    </div>
+                                                    <div class="contact_bt">
+                                                        <a href="#">便利</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-7 col-sm-12">
+                                                <div class="img-box">
+                                                    <figure><img src="images/banner-img1.png"
+                                                            style="max-width: 100%;" /></figure>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="container">
+                                        <div class="row marginii">
+                                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                                                <div class="carousel-sporrt_text">
+                                                    <h1 class="banner_taital">業務的行為報告＆業績預測
+                                                    </h1>
+                                                    <p class="lorem_text">透過搜集業務拜訪資料，分析並產生數據，建立企業高效業務模型，找到銷售盲區
+                                                    </p>
+                                                    <div class="ads_bt">
+                                                        <a href="#">行為</a>
+                                                    </div>
+                                                    <div class="contact_bt">
+                                                        <a href="#">業績</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                                                <div class="img-box">
+                                                    <figure><img src="images/banner-img2.png"
+                                                            style="max-width: 100%;" /></figure>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="container">
+                                        <div class="row marginii">
+                                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                                                <div class="carousel-sporrt_text">
+                                                    <h1 class="banner_taital">精準的銷售力課程</h1>
+                                                    <p class="lorem_text">針對銷售盲區提出相對應的加強課程，並協助目標設定以及陪跑計劃，確實提升業績
+                                                    </p>
+                                                    <div class="ads_bt">
+                                                        <a href="#">課程</a>
+                                                    </div>
+                                                    <div class="contact_bt">
+                                                        <a href="#">培訓</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                                                <div class="">
+                                                    <figure><img src="images/banner-img3.png"
+                                                            style="max-width: 100%;" /></figure>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
+                    </section>
+                </div>
+            </div>
+
+        </div>
+        <!--header section end -->
+    </div>
+    <!--banner section end -->
+    <!--about section start -->
+    <div id="about" class="about_section layout_padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="tablet"><img src="images/tablet-img.png"></div>
+                </div>
+                <div class="col-md-6">
+                    <div class="about_taital">
+                        <div class="about_text">外出時<br>
+                            <span style="color: #6da16d;">最簡易的資料記錄方式</span>
+                        </div>
+                        <p class="dolor_text">以外勤工作者的視角出發，將ＣＲＭ結合ＧＯＯＧＬＥＭＡＰ讓其在外可以30秒內快速紀錄拜訪資料，大幅減低文書處理負擔
+                        <div class="read_more" style="margin:5px;">
+                            <span style="margin: auto;vertical-align: middle;"><a
+                                    href="https://docs.google.com/forms/d/e/1FAIpQLSc-fG3Nfj-fYcxVJS7UpvQ-J7G610lole-r8HdaAOGtAiblRg/viewform"
+                                    target="_blank">申請試用</a></span>
+                        </div>
+                        <div class="read_more" style="margin:5px;">
+                            <span style="margin: auto;vertical-align: middle;"><a href="https://lin.ee/dt834mY"
+                                    target="_blank">聯絡客服</a></span>
+                        </div>
+                        <!--                        -->
                     </div>
                 </div>
             </div>
-            <div class="col-md-6">
-                <div class="map_section">
-                    <div class="row">
-                        <div class="col-sm-12">
-                            <div class="full map_section">
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3639.3253287374873!2d120.67692401498982!3d24.195383084371894!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346917baca3376a9%3A0xca37abfd8da46d0d!2zNDA25Y-w5Lit5biC5YyX5bGv5Y2A6LGQ5qiC5LqM6KGXMTEy6Jmf!5e0!3m2!1szh-TW!2stw!4v1616923853738!5m2!1szh-TW!2stw" width="100%" height="315" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </div>
+    <div id="product" class="about_section_2">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="classified_text">我們的服務流
+                        <span style="color: #6da16d;">SERVICE</span>
+                    </div>
+                </div>
+            </div>
+            <div class="row front">
+                <div class="col-md-2">
+                    <div class="card-container">
+                        <div class="card-inner">
+                            <div class="card-imgouter">
+                                <div class="about_img"><img src="images/service_db.png" alt="客戶資料庫快速建立"></div>
+                            </div>
+                            <div class="card-content" style="background-color:#FFC000;">
+                                <div class="about_img"><img src="images/img-1.png"></div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <!-- <h1 class="newsletter_text">最新消息</h1>
+                <div class="col-md-2">
+                    <h1 class="fron_text">建立雲端資料庫</h1>
+                    <p class="using_text"></p>
+                </div>
+                <div class="col-md-2">
+                    <div class="card-container">
+                        <div class="card-inner">
+                            <div class="card-imgouter">
+                                <div class="about_img"><img src="images/service_train.png" alt="客戶資料庫快速建立"></div>
+                            </div>
+                            <div class="card-content" style="background-color:#0084B4;">
+                                <div class="about_img"><img src="images/img-1.png"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <h1 class="fron_text">導入Salesmap系統</h1>
+                    <p class="using_text"></p>
+                </div>
+                <div class="col-md-2">
+                    <div class="card-container">
+                        <div class="card-inner">
+                            <div class="card-imgouter">
+                                <div class="about_img"><img src="images/service_visit.png" alt="完整的教育訓練"></div>
+                            </div>
+                            <div class="card-content" style="background-color:#BA1015;">
+                                <div class="about_img"><img src="images/img-1.png"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <h1 class="fron_text">系統教育訓練</h1>
+                    <p class="using_text"></p>
+                </div>
+            </div>
+            <div class="row front">
+                <div class="col-md-2">
+                    <div class="card-container">
+                        <div class="card-inner">
+                            <div class="card-imgouter">
+                                <div class="about_img"><img src="images/service_workflow.png" alt="拜訪資料快速瀏覽"></div>
+                            </div>
+                            <div class="card-content" style="background-color:#3C6B3C;">
+                                <div class="about_img"><img src="images/img-1.png"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <h1 class="fron_text">針對銷售盲區提出精準的課程輔導</h1>
+                    <p class="using_text"></p>
+                </div>
+                <div class="col-md-2">
+                    <div class="card-container">
+                        <div class="card-inner">
+                            <div class="card-imgouter">
+                                <div class="about_img"><img src="images/service_report.png" alt="貼合工作流程的系統設計"></div>
+                            </div>
+                            <div class="card-content" style="background-color:#3C6B3C;">
+                                <div class="about_img"><img src="images/img-1.png"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <h1 class="fron_text">每月業務行為報告＆業績預測報告產出</h1>
+                    <p class="using_text"></p>
+                </div>
+                <div class="col-md-2">
+                    <div class="card-container">
+                        <div class="card-inner">
+                            <div class="card-imgouter">
+                                <div class="about_img"><img src="images/service_free.png" alt="免費的系統導入"></div>
+                            </div>
+                            <div class="card-content" style="background-color:#3C6B3C;">
+                                <div class="about_img"><img src="images/img-1.png"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <h1 class="fron_text">顧問陪跑，協助業務團隊提升整體業績</h1>
+                    <p class="using_text"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--about section end -->
+    <!--client section start -->
+    <div class="clients_section layout_padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="client_text">團隊介紹<span style="color: #6da16d;">TEAM</span>
+                    </div>
+                    <p class="using_text">將業務經驗系統化 給你最專業的顧問服務 SOP結合系統應用 將不可能變可能</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="clients_section_2 layout_padding">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="container">
+                        <div class="client_img"><img src="images/man1.png"></div>
+                        <h1 class="johan_text">DANIEL</h1>
+                        <p class="adiser_text">(CEO)</p>
+                        <p class="long_text">前線人員的使用意願大幅決定了CRM系統的導入成功率，加注足夠的動能促使外勤人員快速上手CRM
+                        </p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container">
+                        <div class="client_img"><img src="images/man2.png"></div>
+                        <h1 class="johan_text">TIM</h1>
+                        <p class="adiser_text">(COO)</p>
+                        <p class="long_text">我們明白中小企業導入CRM最大的掙扎在於無法實際評估效應，Salesmap開放系統終身免費導入，先看到成效，再做評估
+                        </p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container">
+                        <div class="client_img"><img src="images/man3.png"></div>
+                        <h1 class="johan_text">YOYO</h1>
+                        <p class="adiser_text">(CTO)</p>
+                        <p class="long_text">我們專注在業務工作流程的改善，讓業務愛用，才能夠更有效率地為企業催生營運報告
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+    <!--client section end -->
+    <!--footer section start -->
+    <div id="contact" class="footer_section layout_padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="footer_contact">聯絡我們</div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="location_text"><img src="images/map-icon.png"><span
+                            style="padding-left: 10px;">台中市北屯區豐樂二街112號</span>
+                    </div>
+                </div>
+                <div class="col-sm-2">
+                    <div class="location_text"><img src="images/call-icon.png"><span
+                            style="padding-left: 10px;">04-3702-3786</span>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="location_text"><img src="images/mail-icon.png"><span
+                            style="padding-left: 10px;">service@bestsalesmap.com.tw</span>
+                    </div>
+                </div>
+            </div>
+            <div class="enput_bt">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="input_main">
+                            <div class="container">
+                                <form action="">
+                                    <div class="form-group">
+                                        <input type="text" class="email-bt" placeholder="姓名" name="Name" id="txtName">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="text" class="email-bt" placeholder="EMAIL" name="Email"
+                                            id="txtEmail">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="text" class="email-bt" placeholder="連絡電話"" name=" tel"
+                                            id=" txttel">
+                                    </div>
+                                    <form action="">
+                                        <div class="form-group">
+                                            <textarea class="massage-bt" placeholder="留言訊您想跟我們說的話" rows="5"
+                                                id="txtComment" name="text"></textarea>
+                                        </div>
+                                    </form>
+                                </form>
+                            </div>
+                            <div class="send_bt_main">
+                                <div class="left">
+                                    <div class="send_bt">
+                                        <a id="btnSend" href="##">留言</a>
+                                    </div>
+                                </div>
+                                <div class="right">
+                                    <div class="social_icon">
+                                        <ul>
+                                            <li><a href="#"><img src="images/fb-icon.png"></a></li>
+                                            <li><a href="#"><img src="images/twitter-icon.png"></a></li>
+                                            <li><a href="#"><img src="images/in-icon.png"></a></li>
+                                            <li><a href="#"><img src="images/instagram-icon.png"></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="map_section">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="full map_section">
+                                        <iframe
+                                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3639.3253287374873!2d120.67692401498982!3d24.195383084371894!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346917baca3376a9%3A0xca37abfd8da46d0d!2zNDA25Y-w5Lit5biC5YyX5bGv5Y2A6LGQ5qiC5LqM6KGXMTEy6Jmf!5e0!3m2!1szh-TW!2stw!4v1616923853738!5m2!1szh-TW!2stw"
+                                            width="100%" height="315" style="border:0;" allowfullscreen=""
+                                            loading="lazy"></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <h1 class="newsletter_text">最新消息</h1>
                 <div class="input-group mb-3">
                     <input type="text" class="form-control" placeholder="輸入您的 EMAIL" aria-label="Recipient 's username" aria-describedby="basic-addon2">
                     <div class="input-group-append">
                         <span class="input-group-text" id="basic-addon2">訂閱</span>
                     </div>
                 </div> -->
+                    </div>
+                </div>
+            </div>
+            <div class="copyright_section">
+                <p class="copyright_text">Copyright 2021 All Right Reserved By.<a href="#">格萊迪科技股份有限公司</p>
+                </p>
             </div>
         </div>
     </div>
-    <div class="copyright_section">
-        <p class="copyright_text">Copyright 2021 All Right Reserved By.<a href="#">格萊迪科技股份有限公司</p>
-        </p>
-    </div>
-</div>
-</div>
-<!--footer section end -->
-<!-- Javascript files-->
-<script src="js/jquery.min.js"></script>
-<script src="js/popper.min.js"></script>
-<script src="js/bootstrap.bundle.min.js"></script>
-<script src="js/jquery-3.0.0.min.js"></script>
-<script src="js/jquery.fancybox.min.js"></script>
-<script src="js/plugin.js"></script>
-<!-- sidebar -->
-<script src="js/jquery.mCustomScrollbar.concat.min.js"></script><script src="js/custom.js"></script><!-- javascript -->
-<!-- <script src="js/owl.carousel.js"></script> -->
-<script src="js/js-helper.js"></script>
-<script>
-$(document).ready(function () {
-    $(".fancybox").fancybox({openEffect:"none", closeEffect:"none"});
-});
+    <!--footer section end -->
+    <!-- Javascript files-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.0.0.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/plugin.js"></script>
+    <!-- sidebar -->
+    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="js/custom.js"></script><!-- javascript -->
+    <!-- <script src="js/owl.carousel.js"></script> -->
+    <script src="js/js-helper.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".fancybox").fancybox({ openEffect: "none", closeEffect: "none" });
+        });
 
-$('#btnSend').on('click', function (e) {
+        $('#btnSend').on('click', function (e) {
 
-    let name = $('#txtName').val();
-    let tel = $('#txtTEL').val();
-    let email = $('#txtEmail').val();
-    let comment = $('#txtComment').val();
+            let name = $('#txtName').val();
+            let tel = $('#txtTEL').val();
+            let email = $('#txtEmail').val();
+            let comment = $('#txtComment').val();
 
-    let mailstr = String.format('mailto:service@bestsalesmap.com.tw?subject=客戶留言&body=  姓名:{0}  電話:{1}  電子郵件:{2}  留言:{3}', name, tel, email, comment);
-    $(this).attr('href', mailstr);
-    $(this).click();
-});
+            let mailstr = String.format('mailto:service@bestsalesmap.com.tw?subject=客戶留言&body=  姓名:{0}  電話:{1}  電子郵件:{2}  留言:{3}', name, tel, email, comment);
+            $(this).attr('href', mailstr);
+            $(this).click();
+        });
 
-</script>
-<!-- google map js -->
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8eaHt9Dh5H57Zh0xVTqxVdBFCvFMqFjQ&callback=initMap"></script>
-<!-- end google map js -->
+    </script>
+    <!-- google map js -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8eaHt9Dh5H57Zh0xVTqxVdBFCvFMqFjQ&callback=initMap"></script>
+    <!-- end google map js -->
 </body>
+
 </html>
